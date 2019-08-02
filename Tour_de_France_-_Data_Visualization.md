@@ -15,7 +15,7 @@ list: [Tour de France
 Dataset](http://www.makeovermonday.co.uk/data/data-sets-2017/). All
 documents of this project can be found on GitHub: [Tour de
 France](https://github.com/ashomah/Tour-de-France). The code can be
-found on GitHub as a Gist: [TOur de France
+found on GitHub as a Gist: [Tour de France
 Code](https://gist.github.com/ashomah/a4d041e1965c4b41e783228a9c43fc06).
 The report also requires 12 packages which will be installed
 automatically if not already present on your machine: `ggplot2, ggalt,
@@ -140,7 +140,7 @@ mapA
 
 <br>
 
-## Map B - Density of Tour de France races as per starting coordinates
+### Map B - Density of Tour de France races as per starting coordinates
 
 Key features to aid usability:
 

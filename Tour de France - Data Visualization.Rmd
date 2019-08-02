@@ -3,9 +3,9 @@ title: "Tour de France - Data Visualization"
 author: "Ashley O'Mahony | [ashleyomahony.com](http://ashleyomahony.com) | January 2019"
 always_allow_html: yes
 output:
-  github_document: default
   html_document:
     theme: yeti
+  github_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -46,7 +46,7 @@ for (i in packages_list){
 ![](https://raw.githubusercontent.com/ashomah/Tour-de-France/master/Images/Tour-de-France-Logo.jpg)
 
 ## Tour de France Dataset
-We have selected a dataset about statistics of the Tour de France results, from 1903 to 2016. The dataset has been selected from this list: [Tour de France Dataset](http://www.makeovermonday.co.uk/data/data-sets-2017/). All documents of this project can be found on GitHub: [Tour de France](https://github.com/ashomah/Tour-de-France). The code can be found on GitHub as a Gist: [TOur de France Code](https://gist.github.com/ashomah/a4d041e1965c4b41e783228a9c43fc06). The report also requires `r length(packages_list)` packages which will be installed automatically if not already present on your machine: ``r paste(packages_list, sep = ', ')``.
+We have selected a dataset about statistics of the Tour de France results, from 1903 to 2016. The dataset has been selected from this list: [Tour de France Dataset](http://www.makeovermonday.co.uk/data/data-sets-2017/). All documents of this project can be found on GitHub: [Tour de France](https://github.com/ashomah/Tour-de-France). The code can be found on GitHub as a Gist: [Tour de France Code](https://gist.github.com/ashomah/a4d041e1965c4b41e783228a9c43fc06). The report also requires `r length(packages_list)` packages which will be installed automatically if not already present on your machine: ``r paste(packages_list, sep = ', ')``.
 
 <br>
 
@@ -148,7 +148,7 @@ mapA
 
 <br>
 
-## Map B - Density of Tour de France races as per starting coordinates
+### Map B - Density of Tour de France races as per starting coordinates
 
 Key features to aid usability:
 
